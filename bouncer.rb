@@ -1,5 +1,7 @@
 ########################## Normal Mode ##########################
 
+# puts "*********** Normal Mode *********** \n\n"
+
 # def check_age
 
 #   print "What is your age? > "
@@ -24,6 +26,8 @@
 # check_age
 
 ########################## Hard Mode ##########################
+
+# puts "*********** Hard Mode *********** \n\n"
 
 # def check_age
 
@@ -56,6 +60,8 @@
 
 ########################## Nightmare Mode ##########################
 
+puts "*********** Nightmare Mode *********** \n\n"
+
 def check_age
 
   loop do
@@ -70,7 +76,7 @@ def check_age
     age_num = age.to_i
 
     if age.upcase == 'Q'
-      puts "Exiting..."
+      puts "Bye Felicia..."
       exit
     elsif citizenship == "S"
       if age_num >= 105
